@@ -55,6 +55,5 @@ def M (i : ℕ) (n : ℕ) (a b : ℝ) (p : partition n a b) := Sup (f '' (Icc (p
 
 def m (i : ℕ) (n : ℕ) (a b : ℝ) (p : partition n a b) := Inf (f '' (Icc (p i) (p (i - 1))))
 
-/-- Lower Riemann Sums! -/
-
-def lower_Riemann_sum (n : ℕ) (a b : ℝ) (p : partition n a b) (i : ℕ) := ∑ m i n  * Δx a b p i in range n 
+-- Lower Riemann Sums!
+--def lower_Riemann_sum (n : ℕ) (a b : ℝ) (p : partition n a b) (i : ℕ) := ∑ m i n  * Δx a b p i in range n 
